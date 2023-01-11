@@ -2,15 +2,11 @@
   font-family: "Inter", sans-serif;
 }
 
-.hero {
+/* .hero {
   height: 100vh;
   width: 100%;
   min-height: 500px;
-  background-image: url("../images/background.png");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 255, 255);
-}
+} */
 
 nav {
   display: flex;
@@ -53,6 +49,18 @@ nav ul li a:hover {
   color: green;
 }
 
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+}
+
 .btn {
   background-color: green;
   font-weight: bold;
@@ -76,11 +84,6 @@ h1 {
   text-align: center;
   letter-spacing: 0.37px;
   color: #172b4d;
-  margin-bottom: -25px;
-}
-
-.content {
-  margin-top: -450px;
 }
 
 h2 {
@@ -107,7 +110,6 @@ h2 {
   letter-spacing: 0.37px;
   color: #172b4d;
   max-width: 500px;
-  margin: auto;
 }
 
 .socialmedia {
@@ -122,13 +124,10 @@ h2 {
 
 .disabled {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 8px;
-  position: absolute;
   width: 40px;
   height: 40px;
-  left: calc(50% - 40px / 2 + 0.5px);
   background: #ffff;
 }
 
@@ -157,7 +156,6 @@ h2 {
   .hambuger-btn {
     position: relative;
     height: 100px;
-    top: auto;
     background-color: none;
     float: right;
   }
