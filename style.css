@@ -139,12 +139,13 @@ h2 {
 .hambuger-btn {
   display: block;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 100px;
   color: black;
   float: right;
   line-height: 70px;
   margin-right: 20px;
   cursor: pointer;
+  padding-top: 40px;
 }
 
 @media (max-width: 700px) {
