@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .hero {
@@ -21,7 +21,7 @@ nav {
 
 .logo {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 1300px;
   font-size: 35px;
@@ -84,7 +84,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 35px;
@@ -98,7 +98,7 @@ h2 {
 }
 
 .supporting-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -177,4 +177,3 @@ h2 {
     display: none;
   }
 }
-
