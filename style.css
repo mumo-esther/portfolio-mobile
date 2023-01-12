@@ -6,7 +6,8 @@
   height: 100vh;
   background-image: url("./images/background.png");
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: 60%;
   background-color: rgb(255, 255, 255);
 }
 
@@ -157,6 +158,15 @@ h2 {
     float: right;
   }
 
+  .hero {
+    height: 100vh;
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60%;
+    background-color: rgb(255, 255, 255);
+  }
+
   .nav-list {
     display: none;
   }
@@ -165,6 +175,15 @@ h2 {
 @media (max-width: 480px) {
   .disabled {
     position: relative;
+  }
+
+  .hero {
+    height: 100vh;
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60%;
+    background-color: rgb(255, 255, 255);
   }
 }
 
